@@ -42,7 +42,7 @@ const Slider = () => {
 
     return (
         <>
-            <div className="bg-slate-100 px-3 md:pt-14 md:px-0">
+            <div className="bg-slate-100 px-3 pt-14 md:px-0">
                 <Swiper
                     slidesPerView={slidePerview}
                     pagination={{ clickable: true }}

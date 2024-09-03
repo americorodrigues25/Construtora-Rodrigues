@@ -5,7 +5,7 @@ import ImageProject3 from '../../assets/image/casa1.jpg';
 
 const Projects = () => {
     return (
-        <section className="bg-slate-950 px-3 py-16">
+        <section id="projects" className="bg-slate-950 px-3 py-16">
             <div className="max-w-7xl mx-auto">
                 <div className='flex flex-col justify-center items-center pb-16 md:w-2/5 text-center mx-auto'>
                     <h2 className='text-orange-600 text-2xl font-bold uppercase'>Nossos projetos</h2>

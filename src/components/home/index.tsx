@@ -41,7 +41,7 @@ const Home = () => {
     }, []);
 
     return (
-        <main className="bg-slate-950 py-20 md:py-32 px-3 h-auto">
+        <main id="home" className="bg-slate-950 py-20 md:py-32 px-3 h-auto">
             <div className="max-w-7xl mx-auto flex flex-col lg:flex-row justify-between items-center gap-20 lg:gap-32">
                 <div className="flex flex-col w-full md:px-10 lg:px-0 gap-y-4 mt-10">
                     <h1 className="text-4xl lg:text-6xl font-bold text-slate-200 leading-tight">Os melhores empreendimentos são feitos por nós</h1>

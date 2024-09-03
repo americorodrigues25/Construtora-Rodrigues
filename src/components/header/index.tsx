@@ -17,14 +17,14 @@ const Header = () => {
   }, []);
 
   return (
-    <header id="home" className="bg-slate-950 py-6 px-3 fixed top-0 left-0 w-full z-50">
+    <header className="bg-slate-950 py-6 px-3 fixed top-0 left-0 w-full z-50">
       <nav className="flex justify-between items-center max-w-7xl mx-auto">
         <div className="flex items-center gap-3">
           <img src={favicon} alt="Logo" className="w-8" />
           <p className="text-slate-300 font-semibold text-lg">Construtora Rodrigues</p>
         </div>
         <ul className="hidden md:flex justify-center items-center text-slate-200 gap-8 text-lg">
-          <a href="home"><li className="hover:text-orange-600 cursor-pointer duration-300">Inicio</li></a>
+          <a href="#home"><li className="hover:text-orange-600 cursor-pointer duration-300">Inicio</li></a>
           <a href="#about"><li className="hover:text-orange-600 cursor-pointer duration-300">Sobre nós</li></a>
           <a href="#services"><li className="hover:text-orange-600 cursor-pointer duration-300">Serviços</li></a>
           <a href="#projects"><li className="hover:text-orange-600 cursor-pointer duration-300">Projetos</li></a>
@@ -49,7 +49,7 @@ const Header = () => {
             onClick={closeMenu}
           />
           <ul className="flex flex-col items-center text-slate-200 gap-8 text-lg">
-            <a href="home"><li
+            <a href="#home"><li
               className="hover:text-orange-600 cursor-pointer duration-300"
               onClick={closeMenu}
             >

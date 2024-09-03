@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import Button from '../button';
 import { FaArrowRight } from "react-icons/fa";
+import ImageHome from '../../assets/image/home-img-1.png';
+import ImageHome2 from '../../assets/image/home-img-2.png';
 
 const Home = () => {
     const [contagemAnos, setcontagemAnos] = useState(0);
@@ -64,8 +66,8 @@ const Home = () => {
                 </div>
 
                 <div className="relative w-full px-5 md:px-10 lg:px-0">
-                    <img src="./src/assets/image/home-img-1.png" alt="Imagem 1" className="w-full" />
-                    <img src="./src/assets/image/home-img-2.png" alt="Imagem 2" className="hidden lg:flex lg:w-6/12 w-8/12 border-8 border-slate-950 absolute -left-20 -bottom-14" />
+                    <img src={ImageHome} alt="Imagem 1" className="w-full" />
+                    <img src={ImageHome2} alt="Imagem 2" className="hidden lg:flex lg:w-6/12 w-8/12 border-8 border-slate-950 absolute -left-20 -bottom-14" />
                 </div>
             </div>
         </main>

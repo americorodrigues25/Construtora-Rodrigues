@@ -1,5 +1,6 @@
 import { FaCheckCircle } from "react-icons/fa";
 import Button from "../button";
+import ImageAbout from '../../assets/image/about-img-1.png'
 
 const About = () => {
     return (
@@ -7,7 +8,7 @@ const About = () => {
             <div className="max-w-7xl mx-auto py-16">
                 <div className="flex flex-col-reverse lg:flex-row justify-between items-center gap-10 lg:gap-20">
                     <div className="relative justify-center w-10/12">
-                        <img src="./src/assets/image/about-img-1.png" alt="" className = "w-full" />
+                        <img src={ImageAbout} alt="" className = "w-full" />
                     </div>
                     <div className="flex flex-col gap-5 md:px-10 lg:px-0">
                         <h2 className="text-orange-600 text-2xl font-bold uppercase">Sobre nós</h2>

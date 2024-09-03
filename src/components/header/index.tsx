@@ -2,6 +2,8 @@ import { useState, useCallback } from 'react';
 import { IoMdMenu } from 'react-icons/io';
 import { IoMdClose } from 'react-icons/io';
 import Button from '../button';
+import favicon from '../../assets/image/favicon.png';
+
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -18,7 +20,7 @@ const Header = () => {
     <header id="home" className="bg-slate-950 py-6 px-3 fixed top-0 left-0 w-full z-50">
       <nav className="flex justify-between items-center max-w-7xl mx-auto">
         <div className="flex items-center gap-3">
-          <img src="./src/assets/image/favicon.png" alt="Logo" className="w-8" />
+          <img src={favicon} alt="Logo" className="w-8" />
           <p className="text-slate-300 font-semibold text-lg">Construtora Rodrigues</p>
         </div>
         <ul className="hidden md:flex justify-center items-center text-slate-200 gap-8 text-lg">

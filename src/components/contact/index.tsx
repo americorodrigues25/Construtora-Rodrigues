@@ -1,6 +1,7 @@
 import { IoLocationOutline, IoLogoWhatsapp } from "react-icons/io5";
 import { FaPhone, FaFacebookMessenger, FaTelegramPlane } from "react-icons/fa";
 import { RiMessage3Line } from "react-icons/ri";
+import ImageContact from '../../assets/image/contact-img.png';
 
 const Contact = () => {
     return (
@@ -12,7 +13,7 @@ const Contact = () => {
                 </div>
                 <div className="flex flex-col lg:flex-row items-center mt-16 gap-10">
                     <div className="w-full lg:w-2/5">
-                        <img src="./src/assets/image/contact-img.png" alt="" className="w-full h-auto" />
+                        <img src={ImageContact} alt="" className="w-full h-auto" />
                     </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-8 w-full lg:w-3/5">
                         <div className="w-full h-52 rounded-sm border border-slate-950 flex flex-col items-center justify-center">

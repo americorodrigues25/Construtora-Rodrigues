@@ -1,4 +1,7 @@
 import Button from '../button';
+import ImageProject1 from '../../assets/image/Predio1.jpg';
+import ImageProject2 from '../../assets/image/predio2.jpg';
+import ImageProject3 from '../../assets/image/casa1.jpg';
 
 const Projects = () => {
     return (
@@ -10,7 +13,7 @@ const Projects = () => {
                 </div>
                 <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10'>
                     <div className='w-full bg-slate-200 flex flex-col rounded-sm'>
-                        <img src="./src/assets/image/predio1.jpg" alt="" className='w-full h-64 object-cover rounded-t-sm' />
+                        <img src={ImageProject1} alt="" className='w-full h-64 object-cover rounded-t-sm' />
                         <div className='px-6 md:px-8 py-10 flex flex-col flex-grow'>
                             <div className='flex-grow'>
                                 <p className='text-slate-600 font-medium text-lg pb-1'>Construção de hotel</p>
@@ -24,7 +27,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='w-full bg-slate-200 flex flex-col rounded-sm'>
-                        <img src="./src/assets/image/predio2.jpg" alt="" className='w-full h-64 object-cover rounded-t-sm' />
+                        <img src={ImageProject2} alt="" className='w-full h-64 object-cover rounded-t-sm' />
                         <div className='px-6 md:px-8  py-10 flex flex-col flex-grow'>
                             <div className='flex-grow'>
                                 <p className='text-slate-600 font-medium text-lg pb-1'>Construção de prédio</p>
@@ -40,7 +43,7 @@ const Projects = () => {
                         </div>
                     </div>
                     <div className='w-full bg-slate-200 flex flex-col rounded-sm'>
-                        <img src="./src/assets/image/casa1.jpg" alt="" className='w-full h-64 object-cover rounded-t-sm' />
+                        <img src={ImageProject3} alt="" className='w-full h-64 object-cover rounded-t-sm' />
                         <div className='px-6 md:px-8  py-10 flex flex-col flex-grow'>
                             <div className='flex-grow'>
                                 <p className='text-slate-600 font-medium text-lg pb-1'>Construção de casa</p>

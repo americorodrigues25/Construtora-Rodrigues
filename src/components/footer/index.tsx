@@ -1,6 +1,8 @@
 import { FaFacebook } from "react-icons/fa";
 import { RiInstagramFill } from "react-icons/ri";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import favicon from '../../assets/image/favicon.png';
+
 const Footer = () => {
     return (
         <footer className="bg-slate-950 px-3 h-auto">
@@ -8,7 +10,7 @@ const Footer = () => {
                 <div className="flex flex-col md:flex-row justify-between gap-10">
                     <div>
                         <div className="flex gap-3 pb-5">
-                            <img src="./src/assets/image/favicon.png" alt="" />
+                            <img src={favicon} alt="" />
                             <h2 className="text-lg font-semibold text-slate-200">Construtora Rodrigues</h2>
                         </div>
                         <p className="text-slate-400 pb-3">Fornecemos segurança<br />e confiança nos lares</p>

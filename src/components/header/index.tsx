@@ -76,7 +76,8 @@ const Header = () => {
               onClick={closeMenu}
             >
               Contate-nos
-            </button></a>
+            </button>
+            </a>
           </ul>
         </div>
       </nav>

@@ -45,7 +45,7 @@ const Home = () => {
                     <h1 className="text-4xl lg:text-6xl font-bold text-slate-200 leading-tight">Os melhores empreendimentos são feitos por nós</h1>
                     <p className="text-lg text-slate-400">Fornecemos os melhores serviços de design, construção e manutenção de casas e apartamentos para você e para sua família.</p>
                     <div className="flex gap-5">
-                       <a href="https://www.google.com/" target='_blank'><Button text = "Nossos Serviços" /></a>
+                       <a href="#" target='_blank'><Button text = "Nossos Serviços" /></a>
                         <div className="flex items-center justify-center gap-5 hover:text-orange-700 duration-300 text-lg text-orange-600">
                             <button className="">Ver projetos</button>
                             <FaArrowRight />

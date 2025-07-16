@@ -25,7 +25,7 @@ Essas 3 tecnologias juntas formam um poderoso conjunto de ferramentas para o des
 
 ---
 
-## 🎥 Demonstração do projeto:
+## 📸 Demonstração do projeto:
 <div style="display: flex" >
 <img align="center" alt="icon-HTML" height="" width="50%" src="https://github.com/user-attachments/assets/8cad82c1-2c83-4db8-98e6-bd22e46d6412" />
 <img align="center" alt="icon-HTML" height="" width="150" src="https://github.com/user-attachments/assets/e0430b78-3a44-485b-9b83-29f65cad8a8c" />
@@ -83,6 +83,8 @@ $ npm run dev
     <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
   </a>
 </div>
+
+---
 
 <div align="center">💻 Feito por Américo Rodrigues</div>
 

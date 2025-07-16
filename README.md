@@ -1,11 +1,18 @@
-# Construtora Rodrigues ✨
-Landing page desenvolvida em React JS, optei por usa React devido à sua componetização. Isso me permitiu separar as seções do site e facilitou a manutenção futura.
-Utilizei pela primeira vez a biblioteca de ícones "React Icons", que oferece uma vasta gama de ícones para o projeto. Também explorei a biblioteca "Swiper" para criação de sliders, além do bom e velho Tailwind CSS, que eu gosto muito de utilizar para estilizações.
+# ✨ Construtora Rodrigues
 
-## React + TypeScript + Vite 🔗
+## 📚 Sobre o Projeto
+Landing page desenvolvida em React JS, optei por usa React devido à sua componetização. Isso me permitiu separar as seções do site e facilitou a manutenção futura.
+Foi a primeira vez que utilizei a biblioteca de ícones "React Icons", que oferece uma vasta gama de ícones.
+Também explorei a biblioteca "Swiper" para criação de sliders, além do bom e velho Tailwind CSS, que eu gosto muito de utilizar para estilizações.
+
+--- 
+
+## 🛠️ React + TypeScript + Vite
 Essas 3 tecnologias juntas formam um poderoso conjunto de ferramentas para o desenvolvimento front-end. <b>React</b> facilita a criação de interfaces de usuário dinâmicas e eficientes com seu conceito de componentes reutilizáveis. <b>TypeScript</b> melhora a segurança e a robustez do código ao adicionar tipagem estática, ajudando a prevenir erros antes da execução. Por fim, <b>Vite</b> oferece uma experiência de desenvolvimento rápida e otimizada, com tempos de inicialização instantâneos e recarregamento eficiente. Juntas, essas ferramentas proporcionam uma base sólida para construir aplicações web escaláveis e de alto desempenho.
 
-### Usei as tecnologias essenciais para Desenvolvimento Fron-End:
+---
+
+## 💻 Tecnologias Utilizadas:
 <div style="display: flex">
 <img align="center" alt="icon-HTML" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
 <img align="center" alt="icon-CSS" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
@@ -16,37 +23,55 @@ Essas 3 tecnologias juntas formam um poderoso conjunto de ferramentas para o des
 <img align="center" alt="icon-Vite" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/vitejs/vitejs-original.svg" />    
 </div>
 
-#
+---
 
-### Demonstração do projeto:
+## 🎥 Demonstração do projeto:
 <div style="display: flex" >
 <img align="center" alt="icon-HTML" height="" width="50%" src="https://github.com/user-attachments/assets/8cad82c1-2c83-4db8-98e6-bd22e46d6412" />
 <img align="center" alt="icon-HTML" height="" width="150" src="https://github.com/user-attachments/assets/e0430b78-3a44-485b-9b83-29f65cad8a8c" />
 </div>
 
-### Inicializando um projeto ReactJs com VITE: 🔗
-Abra o terinal, navegue até onde o projeto vai ser criado e digite: <br>
-- npm create vite@latest <br>
-- Escolha o nome do projeto <br>
-- Escolha o modelo que deseja utilizar como (reactJs, reactTs...)
+---
 
-### Entre na raiz do seu projeto: 🔗
-- cd nome do seu projeto
+## ⚙️ Inicializando um projeto ReactJs com VITE: 
+``` bash
+# Abra o terinal, navegue até onde o projeto vai ser criado e digite:
+$ npm create vite@latest
 
-### Instale as dependencias: 🔗
-- npm install
+# Escolha o nome do projeto
+# Escolha o modelo que deseja utilizar como (reactJs, reactTs...)
+```
 
-### Inicialize o projeto com localhost: 🔗
-- npm run dev
+``` bash
+# Entre na raiz do seu projeto:
+$ cd nome-do-seu-projeto
+```
 
-### ✨ A partir dai é só começar a criar o projeto, lembre-se de instalar outras bibliotecas de acordo com a preferência. ✨
+``` bash
+# Instale as dependencias com:
+$ npm install
+```
 
+``` bash
+# Inicialize o projeto com localhost:
+$ npm run dev
+```
 
-# link do deploy:
-https://construtora-rodrigues.vercel.app/
+## ✨ A partir dai é só começar a criar o projeto, lembre-se de instalar outras bibliotecas de acordo com a preferência.
 
+--- 
+## 🔗 link do deploy:
+* [Construtora Rodrigues](https://construtora-rodrigues.vercel.app/)
 
-## Contatos: 📲
+---
+
+## 📢 Publicação no LinkedIn
+
+[🔗 Ver post no LinkedIn](https://www.linkedin.com/feed/update/urn:li:activity:7236839611639988224/)
+
+---
+
+## 📲 Contatos: 
 <div>
   <a href="https://wa.me/+5511964166962" target="_blank">
     <img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
@@ -59,7 +84,7 @@ https://construtora-rodrigues.vercel.app/
   </a>
 </div>
 
-
+<div align="center">💻 Feito por Américo Rodrigues</div>
 
 
 
